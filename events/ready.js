@@ -5,8 +5,9 @@ module.exports = {
 	name: 'ready',
 	once: true,
 	execute(client) {
+    const guild = client.guilds.cache.find(g => g.id === '722788871716470845')
 		const activities = [
-    `${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} Members!`,
+    `${guild.memberCount} Members!`,
 `Join The Vortex`,
   ]
 
