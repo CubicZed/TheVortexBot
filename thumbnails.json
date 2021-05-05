@@ -1,0 +1,26 @@
+btw, for thumbnails wiht the user's avatar do 'message.author.avatarurl'
+
+console.log(`#${message.channel.name}: ${message.author.tag} - ${message.content}`)
+
+const hook = new Discord.WebhookClient('824927463913029652', '2W6J8gpDZ29aaJQsav__PftlHQjqyoo04qwLSePtk8bCsvz794FrJKKve0wqJYsYm56e');
+		hook.send(`The Bot is Up! Logged in as ${client.user.tag}`);
+		hook.send(`Status: ${client.user.presence.status}`)
+		
+		const Discord = require('discord.js')
+
+module.exports = {
+  name: 'message',
+  execute(message) {
+    //Create Ticket
+    if (message.channel.type === 'dm') {
+      const channelName = message.author.tag.split(' ').join('-')
+      const guild = message.client.guilds.fetch('722788871716470845')
+      let channel = guild.channels.cache.find((x) => (x.name === channelName || x.name === channelName))
+      if (!channel) {
+        
+      } else {
+        //guild.channels.create(channelName, { parent: 'Needed a cool new channel' })
+      }
+    }
+  }
+}

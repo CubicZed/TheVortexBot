@@ -1,0 +1,25 @@
+{
+  "name": "the-vortex-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.7.0",
+    "chalk": "^4.1.0",
+    "discord-giveaways": "^4.4.3",
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "figlet": "^1.5.0",
+    "mathjs": "^9.3.0",
+    "ms": "^2.1.3",
+    "node-fetch": "^2.6.1",
+    "ord": "^1.0.1",
+    "reconlx": "^1.2.41",
+    "snakecord": "^1.0.6"
+  }
+}
