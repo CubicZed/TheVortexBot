@@ -4,9 +4,9 @@ module.exports = {
   execute(message, args) {
     const time = args.join(' ')
     const msTime = ms(time)
-    function timetest() {
+    function timeTest() {
       message.reply(`**${msTime}** milisecond delay`)
     }
-    setTimeout(timetest, msTime)
+    setTimeout(timeTest, msTime)
   }
 }
