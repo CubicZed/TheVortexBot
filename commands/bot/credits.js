@@ -6,7 +6,7 @@ module.exports = {
     const creditEmbed = new Discord.MessageEmbed()
     .setTitle('Credits')
     .addFields(
-      { name: 'Programmers:', value: 'Cubic Z\nyoda\nSandy\nZmacky' },
+      { name: 'Programmers:', value: 'Cubic Z\nyoda\nSandy\nZmacky\nnet-tech-\nSwifty Shadow' },
       { name: 'Profile Picture', value: 'Pixel Tactix' }
 	  )
     
